@@ -12,11 +12,11 @@ WHEN = time(19, 37, 0)  # 27:31 PM
 #WHEN = time(19, 58, 40)  # pisac -2h
 
 con = mysql.connector.connect(
-    host = "161.97.78.70",
-    user = "u9583_ZO9IVWbHlf",
-    password = "yDirH1xEenEczcWS==HI8X2n",
-    database = "s9583_database",
-    port = 3306
+    host = "0",
+    user = "",
+    password = "n",
+    database = "",
+    port = 0000
 )
 cur = con.cursor()
 
